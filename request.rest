@@ -1,0 +1,19 @@
+GET http://localhost:1000/login
+
+###
+POST http://localhost:1000/register
+Content-Type: application/json
+
+{
+    "email":"judahdorecgmail.com",
+    "password":"Judah123@"
+}
+###
+
+POST http://localhost:1000/login
+Content-Type: application/json
+
+{
+    "email":"judahdorecgmail.com",
+    "password":"Judah123@"
+}
